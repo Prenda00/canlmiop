@@ -68,4 +68,10 @@ https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="FoxSports.mx@HD",Fox Sports
 https://ott.udptv.com/stream/udptv/foxsports/master.m3u8?u=discord.gg/civ3&p=eeaf011ae6d8cdbf0200cc0234f54fdc95d7b5b158d22258efd49d7e36275c7a
 #EXTINF:-1 tvg-id="ESPN.mx",ESPN 1
-https://51a1.crackstreamslivehd.com/global/espnmx/index.m3u8?token=162d4091393ee29138f7b6b5aacbcc0f295b603f-a9-1748940938-1748908538&ip=201.164.160.59
+https://3095.crackstreamslivehd.com/espn/index.m3u8?token=fcb3ab266ffbad3f47b797d50089ae0388fa8d96-9d-1749026795-1748994395&ip=201.164.160.59
+#EXTINF:-1 tvg-id="ESPN2.mx",ESPN 2
+https://55.crackstreamslivehd.com/espn2/index.m3u8?token=0644064b8e6d82046f5eb1ca9006cf8be1452667-84-1749026914-1748994514&ip=201.164.160.59
+#EXTINF:-1 tvg-id="ESPN3.mx",ESPN 3
+https://london.crackstreamslivehd.com/espn3/index.m3u8?token=be26b0734e7406d6e6e0cc42fb5fbdae1f2a787a-9e-1749026945-1748994545&ip=201.164.160.59
+#EXTINF:-1 tvg-id="ESPNprem.mx",ESPN premium
+https://99a1.crackstreamslivehd.com/espnpremium/index.m3u8?token=130a53f39917fd8358fdcd69598c73ca56a5d027-0a-1749026978-1748994578&ip=201.164.160.59
