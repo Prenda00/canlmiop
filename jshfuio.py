@@ -5,7 +5,7 @@ from pathlib import Path
 import requests
 
 # === TUS CREDENCIALES (proporcionadas) ===
-BOT_TOKEN = "8411154396:AAHj__Ua7uyFwG97YvTg2_KbPnZiHKyAODo"
+BOT_TOKEN = "6137879346:AAFbSSJmWCDFjgMqm7xxr7jjJmRh7z137GI"
 CHAT_ID = "6623014135"
 
 # Puedes cambiar esta ruta si tu Escritorio está en otro lugar
