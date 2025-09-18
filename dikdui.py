@@ -11,7 +11,7 @@ import time
 # ===========================
 #  CREDENCIALES DEL BOT
 # ===========================
-BOT_TOKEN = "6137879346:AAFbSSJmWCDFjgMqm7xxr7jjJmRh7z1AAAI"
+BOT_TOKEN = "8178220599:AAF3Wc8MGI59E9Sa9edxCW1brXHMueIWxSU"
 CHAT_ID = "6623014135"
 
 # ===========================
