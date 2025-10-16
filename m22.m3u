@@ -131,30 +131,4 @@ https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/41_.m3u8?token=nKK4Lj
 #EXTINF:-1 tvg-id="GOLDEN.mx",GOLDEN
 https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/74_.m3u8?token=IV7xFQs1JMChvTAK-WyXug&expires=1760661155
 # ===== 📦 OTROS =====
-#EXTINF:-1 tvg-id="XHSPRTDT1.mx" http-referrer="https://www.canalcatorce.tv/",Canal Catorce
-#EXTVLCOPT:http-referrer=https://www.canalcatorce.tv/
-https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
-#EXTINF:-1 tvg-id="ConectaTV.mx",Conecta TV
-https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
-#EXTINF:-1 tvg-id="ElSonorense.mx",El Sonorense (1080p) [Not 24/7]
-https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
-#EXTINF:-1 tvg-id="ExpresaTV.mx",Expresa TV (720p)
-https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="GikTVMX.mx" http-referrer="https://giktvmx.g3radio.mx",GikTVMx (480p)
-#EXTVLCOPT:http-referrer=https://giktvmx.g3radio.mx
-https://pistream.ddns.net/hls/stream.m3u8
-#EXTINF:-1 tvg-id="JusticiaTV.mx",Justicia TV (720p)
-#EXTINF:-1 tvg-id="LoboTV.mx",Lobo TV (720p)
-https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
-#EXTINF:-1 tvg-id="MVSTV.mx",MVS TV [Geo-blocked]
-https://dish.akamaized.net/Content/HLS_HLS_CLR/Live/channel(mvs)/variant.m3u8
-#EXTINF:-1 tvg-id="NPlusMedia.mx",NMás Media (1080p)
-https://channel04-notusa.akamaized.net/hls/live/2029754/event01/index.m3u8
-#EXTINF:-1 tvg-id="Teleritmo.mx",Teleritmo (720p) [Not 24/7]
-https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
-#EXTINF:-1 tvg-id="ZAZ.mx",ZAZ
-https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
-#EXTINF:-1 tvg-id="MVSTV.mx@SD",MVS TV
-https://mvs.daioncdn.net/mvstv/mvstv.m3u8?app=web
-#EXTINF:-1 tvg-id="CANALDELASESTRELLAS.mx",CANAL DE LAS ESTRELLAS
-https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/57_.m3u8?token=OiHfIB1MLFx15abhP5JHxw&expires=1760661147
+
