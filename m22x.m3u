@@ -176,14 +176,13 @@ https://cdn.fastocloud.com/leonel.m3u8
 https://mvs.daioncdn.net/mvstv/mvstv.m3u8?app=web
 #EXTINF:-1 tvg-id="PSN.mx@SD",PSN
 https://srspsn.live/live/livestream.m3u8
-#EXTINF:-1 tvg-id="FoxSports.mx@HD",Fox Sports
-https://ott.udptv.com/stream/udptv/foxsports/master.m3u8?u=discord.gg/civ3&p=eeaf011ae6d8cdbf0200cc0234f54fdc95d7b5b158d22258efd49d7e36275c7a
 #EXTINF:-1 tvg-id="ESPN.mx",ESPN 1
 https://ag9wzq.fubohd.com:443/espn/mono.m3u8?token=242f1fb04361a3ffd4c8d32b2ae81408cf44e3c6-d9-1760652105-1760634105
 #EXTINF:-1 tvg-id="ESPN3.mx",ESPN 3
 https://agvyby.fubohd.com:443/espn3/mono.m3u8?token=8077d82402527d43149951d82d90d4a2c46a22af-55-1760652107-1760634107
 #EXTINF:-1 tvg-id="ESPN2.mx",ESPN 2
 https://agvyby.fubohd.com:443/espn2/mono.m3u8?token=51b10ce549dac6741b103e525125534fde6f010a-1d-1760652106-1760634106
+
 
 
 
