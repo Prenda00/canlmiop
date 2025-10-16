@@ -14,11 +14,11 @@ https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenaTV.mx",Antena TV (1080p)
 https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8
 #EXTINF:-1 tvg-id="Azteca7.mx",Azteca 7 (720p) [Geo-blocked]
-https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/1_.m3u8?token=zEViVvBOxY24apR1_VVUlA&expires=1760658757
 #EXTINF:-1 tvg-id="AztecaInternacional.mx",Azteca Internacional (1080p)
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 #EXTINF:-1 tvg-id="AztecaUno.mx",Azteca Uno (720p) [Geo-blocked]
-https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/52_.m3u8?token=9rThGkJZY0vnG-rji58OZw&expires=1760658754
 #EXTINF:-1 tvg-id="MilenioTelevision.mx",Milenio Television
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/652e922db4b047000825f975livestitch/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&profilesFromStream=true&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
 #EXTINF:-1 tvg-id="Foro.mx",Foro TV (1080p)
@@ -36,7 +36,7 @@ https://stream.oursnetworktv.com/latin/encoder74/playlist.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMediosTV.mx",California Medios TV (720p)
 https://s5.mexside.net:1936/medios/medios/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5.mx",Canal 5
-http://181.78.105.146:2000/play/a038/index.m3u8
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/2_.m3u8?token=fhsdt1Oo5q2UJcUe9C23EA&expires=1760658758
 #EXTINF:-1 tvg-id="Canal7SLP.mx",Canal 7 SLP (1080p) [Not 24/7]
 https://mvtvstream.com:444/live/6456eb2e56ab7/index.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx",Canal 10 Chiapas (720p)
@@ -177,40 +177,129 @@ https://mvs.daioncdn.net/mvstv/mvstv.m3u8?app=web
 #EXTINF:-1 tvg-id="PSN.mx@SD",PSN
 https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="ESPN.mx",ESPN 1
-https://wp9xqedt.fubohd.com:443/espn/mono.m3u8?token=75ef7b59f127d4240924bf701b2e1957baa3374e-36-1760657677-1760639677
+https://wp9xqedt.fubohd.com:443/espn/mono.m3u8?token=838acc007da7fb2b35fe6a2b8c864bc30135dd67-2d-1760657837-1760639837
 #EXTINF:-1 tvg-id="ESPN3.mx",ESPN 3
-https://anvtcax.fubohd.com:443/espn3/mono.m3u8?token=e67eb345f765b2b6f4215813793256a7576c871f-3d-1760657681-1760639681
+https://rm8zcvk3.fubohd.com:443/espn3/mono.m3u8?token=5be86cfd27b25fd2cc51b44818f873eea02918de-ff-1760657841-1760639841
 #EXTINF:-1 tvg-id="ESPN2.mx",ESPN 2
-https://ag9wzq.fubohd.com:443/espn2/mono.m3u8?token=b6873a77ae96931ee18a7a4595d5007c7c91ed25-fb-1760657678-1760639678
+https://ag9wzq.fubohd.com:443/espn2/mono.m3u8?token=6feb5517b501edf2b14095c30711346c711f551e-33-1760657839-1760639839
 
 
 
 
 #EXTINF:-1 tvg-id="ESPNPREMIUM.mx",ESPNPREMIUM
-https://ag9wzq.fubohd.com:443/espnpremium/mono.m3u8?token=a875b23daea7b04fcb6d3dcd216652ffa9887097-dc-1760657679-1760639679
+https://agvyby.fubohd.com:443/espnpremium/mono.m3u8?token=d3e11f177dc906508c387fbcca7b82e051aaf0bd-55-1760657840-1760639840
 
 #EXTINF:-1 tvg-id="FOXSPORTSMX.mx",FOXSPORTSMX
-https://a2vlca.fubohd.com:443/foxsportsmx/mono.m3u8?token=7ad9ec49a86adf7ecb166cf1aab1281d0f3a473a-2e-1760657682-1760639682
+https://tyg2mnl9.fubohd.com:443/foxsportsmx/mono.m3u8?token=657edf26815a1e9a5307a67f3119d4f8bfc37763-4b-1760657843-1760639843
 
 #EXTINF:-1 tvg-id="FOXSPORTS2MX.mx",FOXSPORTS 2MX
-https://anvtcax.fubohd.com:443/foxsports2mx/mono.m3u8?token=c66735309e6ab4b473fcd4b3948367630b3efa65-72-1760657683-1760639683
+https://aw1wcm92zq.fubohd.com:443/foxsports2mx/mono.m3u8?token=b8cf1e638d2c70e69d9c0da52f73f62f8f3f6ea0-2d-1760657844-1760639844
 
 #EXTINF:-1 tvg-id="FOXSPORTS3MX.mx",FOXSPORTS 3MX
-https://qzv4jmsc.fubohd.com:443/foxsports3mx/mono.m3u8?token=6655194b7c6613fa10c5fd166bee250e9b7af07f-2-1760657684-1760639684
+https://ym9yzq.fubohd.com:443/foxsports3mx/mono.m3u8?token=d136fc8e360b7d6b6b9a5be87b16296d6d6f7572-fd-1760657845-1760639845
 
 #EXTINF:-1 tvg-id="ESPNDEPORTES.mx",ESPNDEPORTES
-https://ym9yzq.fubohd.com:443/espndeportes/mono.m3u8?token=45763b2cd08fa9eb109f56b99f25b5cbee7366af-3e-1760657686-1760639686
+https://qzv4jmsc.fubohd.com:443/espndeportes/mono.m3u8?token=cc5c9cd12aabd7d6eeaea86a31f6f65fdf9aca23-55-1760657846-1760639846
 
 #EXTINF:-1 tvg-id="ESPN7.mx",ESPN 7
-https://ym9yzq.fubohd.com:443/espn7/mono.m3u8?token=d00b957d5f9bb4556ccecf9d7b8860349d739597-e6-1760657687-1760639687
+https://qzv4jmsc.fubohd.com:443/espn7/mono.m3u8?token=1caccd308959814315022ba37502110bd318f9b3-10-1760657848-1760639848
 
 #EXTINF:-1 tvg-id="ESPN6.mx",ESPN 6
-https://qzv4jmsc.fubohd.com:443/espn6/mono.m3u8?token=4049202e6d6aa0eb9b14a75e1a48eab4311fff36-37-1760657688-1760639688
+https://aw1wcm92zq.fubohd.com:443/espn6/mono.m3u8?token=e06f14ccc03b5352a3bb1b00c7dafcf40735641b-d8-1760657849-1760639849
 
 #EXTINF:-1 tvg-id="ESPN4.mx",ESPN 4
-https://aw1wcm92zq.fubohd.com:443/espn4/mono.m3u8?token=04096b0eecb72c8303502563283dfb2156167120-ef-1760657689-1760639689
+https://bGFuZQ.fubohd.com:443/espn4/mono.m3u8?token=b0be9f72a11fa735927ccc1671c6590bbbfa87cf-c0-1760657850-1760639850
 
 #EXTINF:-1 tvg-id="ESPN5.mx",ESPN 5
-https://wp9xqedt.fubohd.com:443/espn5/mono.m3u8?token=a22dae80805901045e6bbd29c20599b48641a412-cc-1760657691-1760639691
+https://a2vlca.fubohd.com:443/espn5/mono.m3u8?token=352a9802726fbc2585bc7ded6f1f4f302add03b3-12-1760657851-1760639851
 #EXTINF:-1 tvg-id="AZTECA_DEPORTES.mx",AZTECA_DEPORTES
-https://x4bnd7lq.fubohd.com:443/azteca_deportes/mono.m3u8?token=17866d6a30eca8d215dfb8c370c16caa5db6ce7d-59-1760657692-1760639692
+https://ym9yzq.fubohd.com:443/azteca_deportes/mono.m3u8?token=ffd76aa631b8172c3250444bebb59e06b6d19496-e9-1760657853-1760639853
+#EXTINF:-1 tvg-id="ANIMALPLANET.mx",ANIMAL PLANET
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/94_.m3u8?token=ZUa_YyKk2kiurPMZHfIpzg&expires=1760658754
+
+#EXTINF:-1 tvg-id="CANALDELASESTRELLAS.mx",CANAL DE LAS ESTRELLAS
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/57_.m3u8?token=uJHxTrMKsWkRHg1tkTtXLQ&expires=1760658754
+
+#EXTINF:-1 tvg-id="A&E.mx",A&E
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/99_.m3u8?token=uROopJvU5kz1AnTrhYiIUg&expires=1760658754
+
+#EXTINF:-1 tvg-id="DISCOVERYCHANNEL.mx",DISCOVERY CHANNEL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/95_.m3u8?token=3EjiZG5RGXFhx18qC8lqaw&expires=1760658755
+
+#EXTINF:-1 tvg-id="IDDISCOVERY.mx",ID DISCOVERY
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/98_.m3u8?token=a4NgeUh8M33rVqi9JDTmOA&expires=1760658755
+
+#EXTINF:-1 tvg-id="NICKELODEON.mx",NICKELODEON
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/110_.m3u8?token=yXO-tL-wBXjGsRX3eD0GTQ&expires=1760658755
+
+#EXTINF:-1 tvg-id="HISTORYCHANNEL.mx",HISTORY CHANNEL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/49_.m3u8?token=WhgQDsKXEQx4OBMxzVDZzA&expires=1760658756
+
+#EXTINF:-1 tvg-id="HISTORYCHANNEL2.mx",HISTORY CHANNEL 2
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/50_.m3u8?token=-eoy6N5VCtXLskkKoaDSAQ&expires=1760658756
+
+#EXTINF:-1 tvg-id="TNTSERIES.mx",TNT SERIES
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/184_.m3u8?token=Sve69Z-i5TMhaD6njW3zsQ&expires=1760658756
+
+#EXTINF:-1 tvg-id="NATGEO.mx",NATGEO
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/92_.m3u8?token=iZaK3lkemyfmLy4jPCk74w&expires=1760658756
+
+#EXTINF:-1 tvg-id="DISCOVERYTURBO.mx",DISCOVERY TURBO
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/96_.m3u8?token=HUGHqRs55u33TMtt3HyeYQ&expires=1760658757
+
+#EXTINF:-1 tvg-id="DISCOVERYTHEATER.mx",DISCOVERY THEATER
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/101_.m3u8?token=PFGbUw6qfYcU1AE0eaq1VQ&expires=1760658757
+
+#EXTINF:-1 tvg-id="TLC.mx",TLC
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/100_.m3u8?token=3M1D-vKeUjfFX4dwFV-sRQ&expires=1760658758
+
+#EXTINF:-1 tvg-id="CARTOONNETWORK.mx",CARTOON NETWORK
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/114_.m3u8?token=PrmQL83Z6msBaOx9U841RQ&expires=1760658758
+
+#EXTINF:-1 tvg-id="DISNEYCHANNEL.mx",DISNEY CHANNEL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/152_.m3u8?token=piq7dcprqIPIlI9c6NfwQw&expires=1760658759
+
+#EXTINF:-1 tvg-id="PARAMOUNTCHANNEL.mx",PARAMOUNT CHANNEL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/83_.m3u8?token=0hAWlELtetOg39-q5k34xw&expires=1760658759
+
+#EXTINF:-1 tvg-id="CINEMAX.mx",CINEMAX
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/43_.m3u8?token=2tU12lrpwlt94yV9vbNnhw&expires=1760658759
+
+#EXTINF:-1 tvg-id="UNIVERSALTV.mx",UNIVERSAL TV
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/79_.m3u8?token=hasmsrnZNdXkgm_7XjuqBw&expires=1760658759
+
+#EXTINF:-1 tvg-id="WARNERTV.mx",WARNER TV
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/150_.m3u8?token=bqojbpukomdb-am31RqNlw&expires=1760658760
+
+#EXTINF:-1 tvg-id="STARCHANNEL.mx",STAR CHANNEL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/42_.m3u8?token=887omyxlj7QtCLHMFkkk2g&expires=1760658760
+
+#EXTINF:-1 tvg-id="CINECANAL.mx",CINECANAL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/44_.m3u8?token=EQB2t1SWg6teGryYuhpfMg&expires=1760658760
+
+#EXTINF:-1 tvg-id="AXN.mx",AXN
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/78_.m3u8?token=jTaQmVgxC4mCaIuvxqRtoQ&expires=1760658761
+
+#EXTINF:-1 tvg-id="AMC.mx",AMC
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/82_.m3u8?token=AmhOQNoem6_WQwQQUkO_dg&expires=1760658761
+
+#EXTINF:-1 tvg-id="COMEDYCENTRAL.mx",COMEDY CENTRAL
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/91_.m3u8?token=85vt_Zei3elC3yINkV2A8g&expires=1760658761
+
+#EXTINF:-1 tvg-id="DPELICULA.mx",DPELICULA
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/153_.m3u8?token=1ulMroAgIoNgeTIEqtvxaA&expires=1760658761
+
+#EXTINF:-1 tvg-id="H&H.mx",H&H
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/97_.m3u8?token=3BbSPBLG_n0LS8z8DRFCcA&expires=1760658762
+
+#EXTINF:-1 tvg-id="SPACE.mx",SPACE
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/39_.m3u8?token=nDEJZZ6rW0I01ZMG3mPTSg&expires=1760658762
+
+#EXTINF:-1 tvg-id="TNT.mx",TNT
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/41_.m3u8?token=UboEN7AA8WSjpvcKG5qd8w&expires=1760658762
+
+#EXTINF:-1 tvg-id="GOLDEN.mx",GOLDEN
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/74_.m3u8?token=yzJs6OB8sqKqcUh5wqUvDA&expires=1760658763
+
+#EXTINF:-1 tvg-id="UNIVISION.mx",UNIVISION
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/62_.m3u8?token=JWJyB8EB_VbXzCe8br6Kqg&expires=1760658763
