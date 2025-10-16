@@ -1,0 +1,160 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="8NTV.mx",8NTV (1080p)
+https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="ADN40.mx",ADN 40 (720p)
+https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
+
+#EXTINF:-1 tvg-id="AlcanceTV.mx",Alcance TV (720p)
+https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
+#EXTINF:-1 tvg-id="AntenaTV.mx",Antena TV (1080p)
+https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8
+#EXTINF:-1 tvg-id="Azteca7.mx",Azteca 7 (720p) [Geo-blocked]
+https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
+#EXTINF:-1 tvg-id="AztecaInternacional.mx",Azteca Internacional (1080p)
+https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+#EXTINF:-1 tvg-id="AztecaUno.mx",Azteca Uno (720p) [Geo-blocked]
+https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
+#EXTINF:-1 tvg-id="MilenioTelevision.mx",Milenio Television
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/652e922db4b047000825f975livestitch/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&profilesFromStream=true&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="CaliforniaMediosTV.mx",California Medios TV (720p)
+https://s5.mexside.net:1936/medios/medios/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="XHTTGTDT.mx",Canal 10 Chiapas (720p)
+https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="XHSPRTDT1.mx" http-referrer="https://www.canalcatorce.tv/",Canal Catorce
+#EXTVLCOPT:http-referrer=https://www.canalcatorce.tv/
+https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-id="ConectaTV.mx",Conecta TV
+https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="ElSonorense.mx",El Sonorense (1080p) [Not 24/7]
+https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
+#EXTINF:-1 tvg-id="ExpresaTV.mx",Expresa TV (720p)
+https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="GikTVMX.mx" http-referrer="https://giktvmx.g3radio.mx",GikTVMx (480p)
+#EXTVLCOPT:http-referrer=https://giktvmx.g3radio.mx
+https://pistream.ddns.net/hls/stream.m3u8
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="ITVDeportes.mx",ITV Deportes
+https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+
+#EXTINF:-1 tvg-id="JusticiaTV.mx",Justicia TV (720p)
+#EXTINF:-1 tvg-id="LasEstrellas.mx",Las Estrellas (1080p)
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+
+
+#EXTINF:-1 tvg-id="LoboTV.mx",Lobo TV (720p)
+https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MariaVision.mx",María Visión Mexico (360p) [Not 24/7]
+https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
+
+
+
+#EXTINF:-1 tvg-id="MexiquenseTV.mx",Mexiquense TV (720p)
+https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="MVSTV.mx",MVS TV [Geo-blocked]
+https://dish.akamaized.net/Content/HLS_HLS_CLR/Live/channel(mvs)/variant.m3u8
+
+#EXTINF:-1 tvg-id="NPlusMedia.mx",NMás Media (1080p)
+https://channel04-notusa.akamaized.net/hls/live/2029754-b/event01/index.m3u8
+#EXTINF:-1 tvg-id="NPlusMedia.mx",NMás Media (1080p)
+https://channel04-notusa.akamaized.net/hls/live/2029754/event01/index.m3u8
+#EXTINF:-1 tvg-id="TeleFormula.mx",TeleFórmula (720p) [Geo-blocked]
+https://mdstrm.com/live-stream-playlist/62f2c855f7981b5a5a2d8763.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="Teleritmo.mx",Teleritmo (720p) [Not 24/7]
+https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
+#EXTINF:-1 tvg-id="TlaxcalaTV.mx",Tlaxcala Televisión (360p) [Not 24/7]
+https://vid.mega00.com:5443/LiveApp/streams/928111829917388844551988/928111829917388844551988.m3u8?token=null
+
+
+
+#EXTINF:-1 tvg-id="TVT.mx",TVT Tabasco (720p) [Not 24/7]
+https://5e50264bd6766.streamlock.net/tabasco/videotabasco/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ZAZ.mx",ZAZ
+https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
+
+
+#EXTINF:-1 tvg-id="XHFGLTDT.mx@SD",XHFGL-TDT
+https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8
+#EXTINF:-1 tvg-id="SQCSCanal4.mx@SD",SQCS Canal 4
+https://video0.rogohosting.com:19360/4982/4982.m3u8
+#EXTINF:-1 tvg-id="15TV.mx@SD",15TV
+https://cdn.fastocloud.com/leonel.m3u8
+#EXTINF:-1 tvg-id="MVSTV.mx@SD",MVS TV
+https://mvs.daioncdn.net/mvstv/mvstv.m3u8?app=web
+#EXTINF:-1 tvg-id="PSN.mx@SD",PSN
+https://srspsn.live/live/livestream.m3u8
+#EXTINF:-1 tvg-id="ESPN.mx",ESPN 1
+https://ag9wzq.fubohd.com:443/espn/mono.m3u8?token=242f1fb04361a3ffd4c8d32b2ae81408cf44e3c6-d9-1760652105-1760634105
+#EXTINF:-1 tvg-id="ESPN3.mx",ESPN 3
+https://agvyby.fubohd.com:443/espn3/mono.m3u8?token=8077d82402527d43149951d82d90d4a2c46a22af-55-1760652107-1760634107
+#EXTINF:-1 tvg-id="ESPN2.mx",ESPN 2
+https://agvyby.fubohd.com:443/espn2/mono.m3u8?token=51b10ce549dac6741b103e525125534fde6f010a-1d-1760652106-1760634106
+
+
+
+
+#EXTINF:-1 tvg-id="ESPNPREMIUM.mx",ESPNPREMIUM
+https://agvyby.fubohd.com:443/espnpremium/mono.m3u8?token=e8262a916e016fecbac5992b5e56ef907a84dc6c-6e-1760652106-1760634106
+
+#EXTINF:-1 tvg-id="FOXSPORTSMX.mx",FOXSPORTSMX
+https://qzv4jmsc.fubohd.com:443/foxsportsmx/mono.m3u8?token=4bd6b23093f513f88aa13b9e2881328cd0acc635-f4-1760652108-1760634108
+
+#EXTINF:-1 tvg-id="FOXSPORTS2MX.mx",FOXSPORTS 2MX
+https://x4bnd7lq.fubohd.com:443/foxsports2mx/mono.m3u8?token=6842b4a960eb47c6c5d0e66dddc9c72310325f4f-5e-1760652108-1760634108
+
+#EXTINF:-1 tvg-id="FOXSPORTS3MX.mx",FOXSPORTS 3MX
+https://ym9yzq.fubohd.com:443/foxsports3mx/mono.m3u8?token=fc5437e172aaf7cabdea764093af4de30efb3200-22-1760652109-1760634109
+
+#EXTINF:-1 tvg-id="ESPNDEPORTES.mx",ESPNDEPORTES
+https://anvtcax.fubohd.com:443/espndeportes/mono.m3u8?token=a3abd84e2414770858c24095cecbfa9532ce9ada-15-1760652109-1760634109
+
+#EXTINF:-1 tvg-id="ESPN7.mx",ESPN 7
+https://bGFuZQ.fubohd.com:443/espn7/mono.m3u8?token=72abcb3831e97d1bb81f88bdda166ebe0b203620-e8-1760652110-1760634110
+
+#EXTINF:-1 tvg-id="ESPN6.mx",ESPN 6
+https://bGFuZQ.fubohd.com:443/espn6/mono.m3u8?token=8da89a03087d4ece65270158e99db4e564a606ca-20-1760652111-1760634111
+
+#EXTINF:-1 tvg-id="ESPN4.mx",ESPN 4
+https://bGFuZQ.fubohd.com:443/espn4/mono.m3u8?token=5ad13b1f7ebd984646d7532e481bc78c31709ea3-ed-1760652111-1760634111
+
+#EXTINF:-1 tvg-id="ESPN5.mx",ESPN 5
+https://aw1wcm92zq.fubohd.com:443/espn5/mono.m3u8?token=683467561b421f5d60bea32e89cc6a1feba169d2-91-1760652112-1760634112
