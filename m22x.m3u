@@ -177,38 +177,40 @@ https://mvs.daioncdn.net/mvstv/mvstv.m3u8?app=web
 #EXTINF:-1 tvg-id="PSN.mx@SD",PSN
 https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="ESPN.mx",ESPN 1
-https://aw1wcm92zq.fubohd.com:443/espn/mono.m3u8?token=7235563487b88a202a36fac9b1005a07e4e013e1-51-1760653413-1760635413
+https://a2vlca.fubohd.com:443/espn/mono.m3u8?token=ca4d79038ec534a52e5418b7cbf5d83fba2d562d-83-1760657557-1760639557
 #EXTINF:-1 tvg-id="ESPN3.mx",ESPN 3
-https://ag9wzq.fubohd.com:443/espn3/mono.m3u8?token=977e60a59865685556e6c98d2bc211a873ace77f-f5-1760653416-1760635416
+https://rm8zcvk3.fubohd.com:443/espn3/mono.m3u8?token=e326f0d5b735f80cb1d1b073dbcac4a7e8e34a49-7a-1760657561-1760639561
 #EXTINF:-1 tvg-id="ESPN2.mx",ESPN 2
-https://qzv4jmsc.fubohd.com:443/espn2/mono.m3u8?token=3822acb4ecc0aa5c51d7332f2dfd227bd385e7e9-d6-1760653414-1760635414
+https://a2vlca.fubohd.com:443/espn2/mono.m3u8?token=b0d49b6d12c43bfad728bd130ca53ce5107129eb-f5-1760657558-1760639558
 
 
 
 
 #EXTINF:-1 tvg-id="ESPNPREMIUM.mx",ESPNPREMIUM
-https://wp9xqedt.fubohd.com:443/espnpremium/mono.m3u8?token=4f86ebc6cf3adc571cb36d82ec60f591bd6e286e-14-1760653415-1760635415
+https://tyg2mnl9.fubohd.com:443/espnpremium/mono.m3u8?token=30066069c1b90d1be108b97f0fb9d49de5cff1a4-ac-1760657560-1760639560
 
 #EXTINF:-1 tvg-id="FOXSPORTSMX.mx",FOXSPORTSMX
-https://bGFuZQ.fubohd.com:443/foxsportsmx/mono.m3u8?token=8cae467e09f20dce4bf5acd974f41cc9b4faf7d7-d5-1760653418-1760635418
+https://qzv4jmsc.fubohd.com:443/foxsportsmx/mono.m3u8?token=ebc538c4f61e65b8b71f107158342913d91f5d31-38-1760657562-1760639562
 
 #EXTINF:-1 tvg-id="FOXSPORTS2MX.mx",FOXSPORTS 2MX
-https://x4bnd7lq.fubohd.com:443/foxsports2mx/mono.m3u8?token=3e63a84dcb733c4ac38a16b714690c6fd5874193-2c-1760653419-1760635419
+https://tyg2mnl9.fubohd.com:443/foxsports2mx/mono.m3u8?token=aa358020067f335100d2ee61b41f0f43cce10752-d1-1760657564-1760639564
 
 #EXTINF:-1 tvg-id="FOXSPORTS3MX.mx",FOXSPORTS 3MX
-https://tyg2mnl9.fubohd.com:443/foxsports3mx/mono.m3u8?token=aaccefa8a4c9d308d24247d79a8b7b3e1b9e0b80-60-1760653420-1760635420
+https://rm8zcvk3.fubohd.com:443/foxsports3mx/mono.m3u8?token=c23399b63bff28440305123ebf3bd82d868569cc-1a-1760657565-1760639565
 
 #EXTINF:-1 tvg-id="ESPNDEPORTES.mx",ESPNDEPORTES
-https://qzv4jmsc.fubohd.com:443/espndeportes/mono.m3u8?token=63d7f134236db1ae3b1c1f9d2b1d9dd91798fab8-3d-1760653422-1760635422
+https://wp9xqedt.fubohd.com:443/espndeportes/mono.m3u8?token=e6929296676b5003542a8366a174ba61f70bd378-e3-1760657566-1760639566
 
 #EXTINF:-1 tvg-id="ESPN7.mx",ESPN 7
-https://qzv4jmsc.fubohd.com:443/espn7/mono.m3u8?token=ae8feaa1103798c60420527d0445ec7224f66302-ae-1760653423-1760635423
+https://anvtcax.fubohd.com:443/espn7/mono.m3u8?token=772610490e771082d52c4303157b699814498699-db-1760657567-1760639567
 
 #EXTINF:-1 tvg-id="ESPN6.mx",ESPN 6
-https://bGFuZQ.fubohd.com:443/espn6/mono.m3u8?token=f6ff8df51eb1acff31970306b22b71fc8b57a305-8f-1760653424-1760635424
+https://rm8zcvk3.fubohd.com:443/espn6/mono.m3u8?token=80e6a6cd96befcd7c90a0cc8dd35811c45928fb1-6-1760657569-1760639569
 
 #EXTINF:-1 tvg-id="ESPN4.mx",ESPN 4
-https://ag9wzq.fubohd.com:443/espn4/mono.m3u8?token=1b5d8d5e4f086860625d555f4ef7bb4dcf3710a6-15-1760653425-1760635425
+https://anvtcax.fubohd.com:443/espn4/mono.m3u8?token=6977d67f8ebd9a2c65e8e9d02ab97e39b6957be3-ce-1760657570-1760639570
 
 #EXTINF:-1 tvg-id="ESPN5.mx",ESPN 5
-https://rm8zcvk3.fubohd.com:443/espn5/mono.m3u8?token=1bad2d0053f923bcf5ff28325698b5d7bcf35d0b-54-1760653427-1760635427
+https://aw1wcm92zq.fubohd.com:443/espn5/mono.m3u8?token=57e1583fe108b3745537dac50cb43c50c195d1ef-8-1760657571-1760639571
+#EXTINF:-1 tvg-id="AZTECA_DEPORTES.mx",AZTECA_DEPORTES
+https://qzv4jmsc.fubohd.com:443/azteca_deportes/mono.m3u8?token=4bfbbd997b8da295d364eadafd4a5aa637ed94d7-80-1760657572-1760639572
