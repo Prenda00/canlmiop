@@ -26,11 +26,11 @@ https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="ITVDeportes.mx",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 #EXTINF:-1 tvg-id="ESPN.mx",ESPN 1
-https://bGFuZQ.fubohd.com:443/espn/mono.m3u8?token=bbb9e5873fd7309d8cedb67e4cc291264a210df3-22-1760741179-1760723179
+https://rm8zcvk3.fubohd.com:443/espn/mono.m3u8?token=6eaf5432e269c96a6dbc26ff3b453233c21cc53d-3e-1760741923-1760723923
 #EXTINF:-1 tvg-id="ESPN3.mx",ESPN 3
 https://ag9wzq.fubohd.com:443/espn3/mono.m3u8?token=803c42aa8a2a9938d6fe1c8b66db19930ece8c20-9f-1760741181-1760723181
 #EXTINF:-1 tvg-id="ESPN2.mx",ESPN 2
-https://bGFuZQ.fubohd.com:443/espn2/mono.m3u8?token=5b1b02ab7984b658f9b4f6193dd2acceba639c43-37-1760741180-1760723180
+https://aw1wcm92zq.fubohd.com:443/espn2/mono.m3u8?token=2f2d119a65cbb9e7a163fab49deed30a2428bb11-ee-1760741923-1760723923
 #EXTINF:-1 tvg-id="ESPNPREMIUM.mx",ESPNPREMIUM
 https://ym9yzq.fubohd.com:443/espnpremium/mono.m3u8?token=375294e9a5bd87c5b933f6d0f00ac2d8ef9a09b1-6c-1760741185-1760723185
 #EXTINF:-1 tvg-id="FOXSPORTSMX.mx",FOXSPORTSMX
@@ -57,7 +57,7 @@ https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="Azteca7.mx",Azteca 7 (720p) [Geo-blocked]
 https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/1_.m3u8?token=lJxmk2QgErki-aNYJWrSxw&expires=1760742091
 #EXTINF:-1 tvg-id="AztecaUno.mx",Azteca Uno (720p) [Geo-blocked]
-https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/52_.m3u8?token=WqBS5K-4S3ByxnUC3DKvNA&expires=1760742094
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/52_.m3u8?token=mJFOaECFCnVOMcNs9s2Qpw&expires=1760742825
 #EXTINF:-1 tvg-id="CaliforniaMediosTV.mx",California Medios TV (720p)
 https://s5.mexside.net:1936/medios/medios/playlist.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx",Canal 10 Chiapas (720p)
@@ -129,5 +129,5 @@ https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/39_.m3u8?token=VOWLVf
 #EXTINF:-1 tvg-id="TNT.mx",TNT
 https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/41_.m3u8?token=W7BJmxja7cNpo2mCnk3U2w&expires=1760742092
 #EXTINF:-1 tvg-id="GOLDEN.mx",GOLDEN
-https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/74_.m3u8?token=tDleezLLSATkozUyrwJm6A&expires=1760742095
+https://live.saohgdasregions.fun:9092/MjAxLjE2NC4xNjAuNjg=/74_.m3u8?token=40J_YP2j1l3Bt6b-pssXGg&expires=1760742825
 # ===== OTROS =====
