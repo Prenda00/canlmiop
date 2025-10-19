@@ -2,5 +2,5 @@
 #EXTINF:-1 tvg-id="DisneyChannelHD" tvg-logo="https://i.imgur.com/7A2Y9wL.png" group-title="Infantil",Disney Channel HD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"b038c8c8f114c568956d428e80ae38d7","kid":"f047ea1abdca6f03117454c4de0b6d5b"}],"type":"temporary"}
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"b038c8c8f114c568956d428e80ae38d7","kid":"f047ea1abdca6f03117454c4de0b6d5b"}]],"type":"temporary"}
 https://live-atv-cdn.izzigo.tv/2/out/u/dash/DISNEYCHANNELHD/default.mpd
